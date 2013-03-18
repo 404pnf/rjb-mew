@@ -40,6 +40,7 @@ date.zip(cat, slug, title, content) do |d, c, s, t, con|
   File.open("#{folder}/#{c}/#{d}-#{s}.md", 'w') do |f|
     yaml_sep = "---\n"
     f.puts yaml_sep
+    f.puts "layout: post"
     f.puts "title: #{t}"
     f.puts yaml_sep
     f.puts "\n"
