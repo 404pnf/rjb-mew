@@ -1,1 +1,1 @@
-rsync -avz _site/* wxkj:/var/www/octopress/rjb.org/mew/
+rsync -avz _site/* wxkj:/var/www/octopress/rjb.org/mewmew/
